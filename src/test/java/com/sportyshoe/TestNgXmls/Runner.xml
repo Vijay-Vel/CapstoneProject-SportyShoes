@@ -1,0 +1,22 @@
+<suite name="test1" verbose="1">
+<listeners>
+    <listener class-name="com.sportyshoe.Tests.ItestListenerClass"></listener>
+  </listeners>
+<test name="POMframework-SportyShoe-HomePageAndRegisterPage">
+<classes>
+<class name="com.sportyshoe.Tests.HomePageTest"></class>
+<class name="com.sportyshoe.Tests.RegisterPageTest"></class>
+</classes>
+</test>
+<test name="POMframework-SportyShoe-LoginPage">
+<classes>
+	<class name="com.sportyshoe.Tests.LoginPageTest"></class>
+</classes>
+</test>
+<test name="POMframework-SportyShoe-OrderPageAndAddtoCartPage">
+<classes>
+	<class name="com.sportyshoe.Tests.OrderPageTest"></class>
+	<class name="com.sportyshoe.Tests.AddtoCartPageTest"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <listeners>
+    <listener class-name="com.sportyshoe.Tests.ItestListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="POMframework-SportyShoe(failed)">
+    <classes>
+      <class name="com.sportyshoe.Tests.HomePageTest">
+        <methods>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.sportyshoe.Tests.HomePageTest -->
+      <class name="com.sportyshoe.Tests.OrderPageTest">
+        <methods>
+          <include name="test_getTitle_page"/>
+          <include name="start_browser"/>
+        </methods>
+      </class> <!-- com.sportyshoe.Tests.OrderPageTest -->
+      <class name="com.sportyshoe.Tests.LoginPageTest">
+        <methods>
+          <include name="test_getTitle_page"/>
+          <include name="start_browser"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.sportyshoe.Tests.LoginPageTest -->
+    </classes>
+  </test> <!-- POMframework-SportyShoe(failed) -->
+</suite> <!-- Failed suite [test1] -->

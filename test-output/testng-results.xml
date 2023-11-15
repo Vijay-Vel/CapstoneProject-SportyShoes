@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-15T14:19:32 IST" name="test1" finished-at="2023-11-15T14:19:47 IST" duration-ms="15058">
+    <groups>
+    </groups>
+    <test started-at="2023-11-15T14:19:32 IST" name="POMframework-SportyShoe-HomePageAndRegisterPage" finished-at="2023-11-15T14:19:41 IST" duration-ms="8770">
+      <class name="com.sportyshoe.Tests.RegisterPageTest">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.sportyshoe.Tests.RegisterPageTest@359df09a]" started-at="2023-11-15T14:19:35 IST" name="start_browser" finished-at="2023-11-15T14:19:36 IST" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_click_register_link()[pri:49, instance:com.sportyshoe.Tests.RegisterPageTest@359df09a]" started-at="2023-11-15T14:19:38 IST" name="test_click_register_link" finished-at="2023-11-15T14:19:39 IST" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_register_link -->
+        <test-method signature="test_getTitle_page()[pri:50, instance:com.sportyshoe.Tests.RegisterPageTest@359df09a]" started-at="2023-11-15T14:19:39 IST" name="test_getTitle_page" finished-at="2023-11-15T14:19:39 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle_page -->
+        <test-method signature="Test_register_user(java.lang.String,java.lang.String,java.lang.String)[pri:51, instance:com.sportyshoe.Tests.RegisterPageTest@359df09a]" started-at="2023-11-15T14:19:40 IST" name="Test_register_user" data-provider="LoginDetails" finished-at="2023-11-15T14:19:40 IST" duration-ms="276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijay@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vijay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_register_user -->
+        <test-method signature="Test_validate_registration_URL()[pri:52, instance:com.sportyshoe.Tests.RegisterPageTest@359df09a]" started-at="2023-11-15T14:19:40 IST" name="Test_validate_registration_URL" finished-at="2023-11-15T14:19:40 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validate_registration_URL -->
+        <test-method signature="Test_validate_registration_Text()[pri:53, instance:com.sportyshoe.Tests.RegisterPageTest@359df09a]" started-at="2023-11-15T14:19:40 IST" name="Test_validate_registration_Text" finished-at="2023-11-15T14:19:40 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validate_registration_Text -->
+      </class> <!-- com.sportyshoe.Tests.RegisterPageTest -->
+      <class name="com.sportyshoe.Tests.HomePageTest">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.sportyshoe.Tests.HomePageTest@247310d0]" started-at="2023-11-15T14:19:32 IST" name="start_browser" finished-at="2023-11-15T14:19:35 IST" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_getTitle_page()[pri:49, instance:com.sportyshoe.Tests.HomePageTest@247310d0]" started-at="2023-11-15T14:19:36 IST" name="test_getTitle_page" finished-at="2023-11-15T14:19:36 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle_page -->
+        <test-method signature="Test_Validate_Text_On_Page()[pri:50, instance:com.sportyshoe.Tests.HomePageTest@247310d0]" started-at="2023-11-15T14:19:36 IST" name="Test_Validate_Text_On_Page" finished-at="2023-11-15T14:19:36 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Validate_Text_On_Page -->
+        <test-method signature="test_click_register_link()[pri:51, instance:com.sportyshoe.Tests.HomePageTest@247310d0]" started-at="2023-11-15T14:19:36 IST" name="test_click_register_link" finished-at="2023-11-15T14:19:38 IST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_register_link -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:com.sportyshoe.Tests.HomePageTest@247310d0]" started-at="2023-11-15T14:19:40 IST" name="close_browser" finished-at="2023-11-15T14:19:41 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.sportyshoe.Tests.HomePageTest -->
+    </test> <!-- POMframework-SportyShoe-HomePageAndRegisterPage -->
+    <test started-at="2023-11-15T14:19:41 IST" name="POMframework-SportyShoe-LoginPage" finished-at="2023-11-15T14:19:43 IST" duration-ms="2192">
+      <class name="com.sportyshoe.Tests.LoginPageTest">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.sportyshoe.Tests.LoginPageTest@1807e3f6]" started-at="2023-11-15T14:19:41 IST" name="start_browser" finished-at="2023-11-15T14:19:42 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_login(java.lang.String,java.lang.String)[pri:49, instance:com.sportyshoe.Tests.LoginPageTest@1807e3f6]" started-at="2023-11-15T14:19:42 IST" name="test_login" data-provider="LoginDetails" finished-at="2023-11-15T14:19:42 IST" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method signature="test_getTitle_page()[pri:50, instance:com.sportyshoe.Tests.LoginPageTest@1807e3f6]" started-at="2023-11-15T14:19:42 IST" name="test_getTitle_page" finished-at="2023-11-15T14:19:42 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle_page -->
+        <test-method signature="Test_validate_registration_Text()[pri:51, instance:com.sportyshoe.Tests.LoginPageTest@1807e3f6]" started-at="2023-11-15T14:19:42 IST" name="Test_validate_registration_Text" finished-at="2023-11-15T14:19:42 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validate_registration_Text -->
+        <test-method signature="test_click_cart()[pri:52, instance:com.sportyshoe.Tests.LoginPageTest@1807e3f6]" started-at="2023-11-15T14:19:42 IST" name="test_click_cart" finished-at="2023-11-15T14:19:42 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_cart -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:com.sportyshoe.Tests.LoginPageTest@1807e3f6]" started-at="2023-11-15T14:19:42 IST" name="close_browser" finished-at="2023-11-15T14:19:43 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.sportyshoe.Tests.LoginPageTest -->
+    </test> <!-- POMframework-SportyShoe-LoginPage -->
+    <test started-at="2023-11-15T14:19:43 IST" name="POMframework-SportyShoe-OrderPageAndAddtoCartPage" finished-at="2023-11-15T14:19:47 IST" duration-ms="4060">
+      <class name="com.sportyshoe.Tests.AddtoCartPageTest">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.sportyshoe.Tests.AddtoCartPageTest@5b7a7f33]" started-at="2023-11-15T14:19:43 IST" name="start_browser" finished-at="2023-11-15T14:19:44 IST" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_login(java.lang.String,java.lang.String)[pri:49, instance:com.sportyshoe.Tests.AddtoCartPageTest@5b7a7f33]" started-at="2023-11-15T14:19:46 IST" name="test_login" data-provider="LoginDetails" finished-at="2023-11-15T14:19:46 IST" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method signature="test_add_product_to_cart()[pri:50, instance:com.sportyshoe.Tests.AddtoCartPageTest@5b7a7f33]" started-at="2023-11-15T14:19:46 IST" name="test_add_product_to_cart" finished-at="2023-11-15T14:19:47 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_product_to_cart -->
+        <test-method signature="test_validate_success_message()[pri:51, instance:com.sportyshoe.Tests.AddtoCartPageTest@5b7a7f33]" started-at="2023-11-15T14:19:47 IST" name="test_validate_success_message" finished-at="2023-11-15T14:19:47 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_validate_success_message -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:com.sportyshoe.Tests.AddtoCartPageTest@5b7a7f33]" started-at="2023-11-15T14:19:47 IST" name="close_browser" finished-at="2023-11-15T14:19:47 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.sportyshoe.Tests.AddtoCartPageTest -->
+      <class name="com.sportyshoe.Tests.OrderPageTest">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:com.sportyshoe.Tests.OrderPageTest@38467116]" started-at="2023-11-15T14:19:44 IST" name="start_browser" finished-at="2023-11-15T14:19:46 IST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_login(java.lang.String,java.lang.String)[pri:49, instance:com.sportyshoe.Tests.OrderPageTest@38467116]" started-at="2023-11-15T14:19:46 IST" name="test_login" data-provider="LoginDetails" finished-at="2023-11-15T14:19:46 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method signature="test_click_orders()[pri:50, instance:com.sportyshoe.Tests.OrderPageTest@38467116]" started-at="2023-11-15T14:19:46 IST" name="test_click_orders" finished-at="2023-11-15T14:19:46 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_orders -->
+        <test-method signature="test_getTitle_page()[pri:51, instance:com.sportyshoe.Tests.OrderPageTest@38467116]" started-at="2023-11-15T14:19:46 IST" name="test_getTitle_page" finished-at="2023-11-15T14:19:46 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle_page -->
+      </class> <!-- com.sportyshoe.Tests.OrderPageTest -->
+    </test> <!-- POMframework-SportyShoe-OrderPageAndAddtoCartPage -->
+  </suite> <!-- test1 -->
+</testng-results>
